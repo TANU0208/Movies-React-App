@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	background: #111;
+	color: #ffffff;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #171212;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(63, 63, 63);
+
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
